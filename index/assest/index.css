@@ -29,8 +29,12 @@ body{
     margin-left: 5px;
 }
 
-#titleh{
+#titleblog{
     text-align: center;
     margin-top: 40px;
     font-family:OpensansRegular ;
+}
+
+.allofpage{
+
 }
