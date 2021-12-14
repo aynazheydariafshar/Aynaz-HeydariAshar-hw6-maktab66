@@ -4,6 +4,24 @@ body{
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family:Openans ;
+    src: url('./fonts/OpenSans-VariableFont_wdth\,wght.ttf');
+}
+
+@font-face {
+    font-family: OpensansRegular;
+    src: url('./fonts/OpenSans-Regular.ttf');
+}
+
+*{
+    font-family: Openans;
+}
+
 .title{
     text-align: center;
+}
+
+#titleh{
+    font-family:OpensansRegular ;
 }
