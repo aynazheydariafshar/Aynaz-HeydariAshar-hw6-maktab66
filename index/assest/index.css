@@ -139,6 +139,7 @@ body{
     max-width: 90%;
     margin: auto;
     text-align: left;
+    margin-top: 50px;
 }
 
 .choices{
@@ -172,10 +173,25 @@ body{
     background-color: #CCCCCC;
 }
 
-#headerchoices{
-    background-color: #F1F1F1;
+.headerchoices{
+    background-color: #e7e4e4;
 }
 
-#Popular{
+.Popular{
     font-size: 20px;
+}
+
+.hashtagtwo span{
+    background-color: #e7e4e4 ;
+    font-size: 12px;
+    margin-bottom: 16px;
+    display: inline-block;
+    padding:0px 8px;
+    text-align: center;
+}
+
+#black{
+    background-color: black;
+    color: white;
+    font-size: 15px;
 }
