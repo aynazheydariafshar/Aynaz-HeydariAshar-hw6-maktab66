@@ -18,10 +18,19 @@ body{
     font-family: Openans;
 }
 
-.title{
+#titlep{
     text-align: center;
 }
 
+#titlep span{
+    background-color: black;
+    color: white;
+    padding: 3px 5px;
+    margin-left: 5px;
+}
+
 #titleh{
+    text-align: center;
+    margin-top: 40px;
     font-family:OpensansRegular ;
 }
