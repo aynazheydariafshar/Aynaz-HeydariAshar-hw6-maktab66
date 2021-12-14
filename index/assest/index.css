@@ -9,11 +9,6 @@ body{
     src: url('./fonts/OpenSans-VariableFont_wdth\,wght.ttf');
 }
 
-@font-face {
-    font-family: OpensansRegular;
-    src: url('./fonts/OpenSans-Regular.ttf');
-}
-
 *{
     font-family: Openans;
 }
@@ -32,9 +27,87 @@ body{
 #titleblog{
     text-align: center;
     margin-top: 40px;
-    font-family:OpensansRegular ;
 }
 
 .allofpage{
-
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
+
+.sectionmain{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sectionleft{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 70vw;
+}
+
+.sectionright{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 30vw;
+}
+
+.cardone{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 90%;
+    margin: auto;
+    text-align: left;
+    margin-top: 50px;
+    height: auto;
+}
+
+.cardone h2{
+    margin:12px;
+}
+
+.date{
+    margin:12px;
+    font-size: 17px;
+}
+
+.date span{
+    color: grey;
+}
+
+.maintext{
+    font-size: 15px;
+    margin:12px;
+}
+
+.btncart{
+    border: 1px solid rgb(201, 196, 196);
+    background-color: white;
+    padding: 12px 24px!important;
+    font-size: 17px;
+    margin: 12px;
+    font-weight: bold;
+}
+
+.comments{
+    display: inline;
+    float: right;
+    margin: 30px;
+    font-weight: bold;
+}
+
+.comments span{
+    background-color: black;
+    color: white;
+    padding: 1px 7px;
+    margin-left: 5px;
+    font-size: 15px;
+}
+
+#spancircle{
+    border-radius: 50%;
+}
+
+  
