@@ -133,13 +133,40 @@ body{
     margin:12px;
 }
 
-.sectionchoices{
-    width: 100vh;
+.cardthree h2{
+    margin:12px;
+}
+
+.cardthree p{
+    font-size: 15px;
+    margin:12px;
+}
+
+.cardthree{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     max-width: 90%;
     margin: auto;
     text-align: left;
-    margin-top: 50px;
+    height: auto;
+    margin-top: 12%;
+}
+
+.sectionchoices{
+    width: 100vw;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 90%;
+    margin: auto;
+    text-align: left;
+    margin-top: 25px;
+}
+
+.sectionchoicestwo{
+    width: 100vw;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 90%;
+    margin: auto;
+    text-align: left;
+    margin-top: 25px;
 }
 
 .choices{
@@ -147,13 +174,22 @@ body{
     padding: 0;
     margin: 0;
 }
-
+.choicestwo{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
 .choices li img{
     float: left;
     margin-top: 10px;
 }
 
 .choices li {
+    padding: 8px 16px;
+    border-bottom: 1px solid #ddd;
+}
+
+.choicestwo li{
     padding: 8px 16px;
     border-bottom: 1px solid #ddd;
 }
@@ -174,6 +210,10 @@ body{
 }
 
 .headerchoices{
+    background-color: #e7e4e4;
+}
+
+.headerchoicestwo{
     background-color: #e7e4e4;
 }
 
@@ -235,3 +275,23 @@ body{
 .footer div p a{
     color: white;
 }
+
+@media only screen and (max-width: 1000px) {
+    .sectionmain{
+        flex-direction: column;
+    }
+    .sectionright{
+        width: 100vw;
+    }
+    .sectionleft{
+        width: 100vw;
+    }
+}
+@media screen and (min-width:1011px) and (max-width:1278px){
+    .cardthree{
+        margin-top:50% ;
+    }
+}
+
+
+
