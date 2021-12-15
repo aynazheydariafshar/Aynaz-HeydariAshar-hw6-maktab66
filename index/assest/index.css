@@ -195,3 +195,43 @@ body{
     color: white;
     font-size: 15px;
 }
+
+.footer{
+    background-color: #616161;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding:40px 20px;
+}
+
+.btnfooter{
+    color: white;
+    border: 0;
+    padding: 12px 26px;
+}
+
+#previous{
+    background-color: #818181;
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+#next{
+    background-color: black;
+}
+
+#next:hover{
+    color: black;
+    cursor: pointer;
+    background-color: #CCCCCC;
+}
+
+.footer div p{
+    color: white;
+    margin-top: 30px;
+}
+
+.footer div p a{
+    color: white;
+}
